@@ -1,0 +1,6 @@
+- [ ] Resetar o estado inicial do projeto (limpar configurações ou dados padrão).
+- [ ] Configurar a estrutura inicial de pastas (ex.: `components`, `pages`, `assets`).
+- [ ] Criar a tela de login com formulário básico (e-mail e senha).
+- [ ] Configurar rotas iniciais do projeto (ex.: login, dashboard).
+- [ ] Adicionar suporte a estilos globais (ex.: CSS ou Styled Components).
+- [ ] Implementar validação no formulário de login.
