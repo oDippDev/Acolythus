@@ -1,3 +1,13 @@
+:root{
+    --color-primary-red: red;
+
+    --color-black: black;
+    --color-white: white;
+
+    --border-radius-small: 5px;
+    --border-radius-large: 15px;
+}
+
 *{
     margin: 0;
     padding: 0;
