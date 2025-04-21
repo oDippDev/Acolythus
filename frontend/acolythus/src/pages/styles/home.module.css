@@ -1,13 +1,13 @@
 @font-face {
     font-family: acolythus_font;
-    src: url('../../assets/AUGUSTUS.TTF') format('truetype');
+    src: url('../../assets/fonts/AUGUSTUS.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
 .home__background {
   position: relative;
-  background-image: url( '../../assets/quick3.png');
+  background-image: url( '../../assets/img/quick3.png');
   background-color:rgba(139, 0, 0, 0.592);
   width: 100%;
   height: 100svh;
