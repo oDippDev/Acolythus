@@ -1,18 +1,22 @@
+import React from "react";
+
 interface InputProps {
-    label: string;
     place: string;
     tipo: string;
     className: string;
     linkToInput: string;
+    divClass: string;
+    
 }
 
-function Input({label, place, tipo, className, linkToInput}: InputProps ) {
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
+  ({place, tipo, className, linkToInput, divClass}, ref) =>  {
   return (
-    <div >
-      <label style={{ color: "#fafafaff" }} htmlFor={linkToInput}>{label}</label>
-      <input type={tipo} placeholder={place} className={className} id={linkToInput} />
+    <div className={divClass}>
+      <input type={tipo} placeholder={place} className={className} id={linkToInput} ref={ref} />
     </div>
-  );
-}
+    );
+  }
+);
 
 export default Input;

@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: acolythus_font;
     src: url('../../assets/fonts/AUGUSTUS.TTF') format('truetype');
@@ -16,20 +18,32 @@
   justify-content: center;
   background-size: cover;
   background-position: center;
-  height: 100vh;    
   background-blend-mode: overlay;
   flex-direction: column;
+}
+
+.home__title {
+  font-family: 'acolythus_font';
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;;
+}
+
+.home{
+  margin-bottom: 10px;
 }
 
 .home__box {
   width: 700px;
   height: 450px;
+  padding: 20px;
   background-color: #1c1c1cff;
   border-radius: var(--border-radius-large);
   display: flex;
   flex-direction: column;
   justify-content:space-evenly;
-   align-items:center;
+  align-items:center;
 }
 
 .home__btn{
@@ -52,11 +66,3 @@
 .home__link{
     color: #ffd6d6ff;
 }
-
-.home__title {
-    font-family: 'acolythus_font';
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 3rem;;
-  }
